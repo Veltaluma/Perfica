@@ -1,0 +1,61 @@
+name: Feature request
+description: Propose an improvement to Perfica
+title: "[Feature] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem first. The underlying user need matters more than a specific implementation.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What user problem would this feature solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the behavior or workflow you would like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe other approaches or workarounds you considered.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature area
+      options:
+        - Tasks
+        - Focus / Pomodoro
+        - Progress
+        - Settings
+        - Backup / restore
+        - Android widget
+        - Notifications
+        - Bug reporting
+        - Accessibility
+        - Localization
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for a similar request.
+          required: true
+        - label: This request does not contain sensitive or private information.
+          required: true

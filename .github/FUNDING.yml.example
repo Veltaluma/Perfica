@@ -1,0 +1,14 @@
+# Intentionally named FUNDING.yml.example.
+# GitHub will not treat this as active sponsorship metadata.
+#
+# When Perfica has an official donation destination:
+# 1. replace the placeholder below;
+# 2. verify current GitHub FUNDING.yml syntax;
+# 3. rename this file to FUNDING.yml;
+# 4. update README.md and SUPPORT.md;
+# 5. update F-Droid donation metadata where appropriate.
+#
+# Example:
+#
+# custom:
+#   - <OFFICIAL_DONATION_URL>

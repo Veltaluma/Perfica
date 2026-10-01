@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="perfica_widget_surface">#1A1B1F</color>
+    <color name="perfica_widget_text_primary">#F2F2F4</color>
+    <color name="perfica_widget_text_secondary">#B8BAC1</color>
+    <color name="perfica_widget_icon">#E4E5E9</color>
+</resources>

@@ -1,0 +1,86 @@
+name: Bug report
+description: Report reproducible incorrect behavior in Perfica
+title: "[Bug] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a Perfica problem.
+        Do not use this form for security vulnerabilities. Follow SECURITY.md instead.
+
+  - type: input
+    id: version
+    attributes:
+      label: Perfica version
+      description: Enter the app version or source revision you tested.
+      placeholder: "Example: 0.1.0+1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS version
+      placeholder: "Example: Android 17"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the incorrect behavior clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected Perfica to do.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reliable sequence that reproduces the problem.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. Change ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add screenshots, logs, or other non-sensitive information when useful.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked that this is not a security vulnerability.
+          required: true
+        - label: I removed passwords, tokens, private keys, and other sensitive information.
+          required: true
+        - label: I searched existing issues for the same problem.
+          required: true

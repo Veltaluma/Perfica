@@ -1,0 +1,457 @@
+{
+  "@@locale": "en",
+  "appName": "Perfica",
+  "navTasks": "Tasks",
+  "navFocus": "Focus",
+  "navInsights": "Progress",
+  "tasksTitle": "Tasks",
+  "tasksEmptyTitle": "No tasks yet",
+  "tasksEmptyDescription": "Add your first task to get started.",
+  "quickAddHint": "Add a task",
+  "quickAddAction": "Add",
+  "taskDeleteTooltip": "Delete task",
+  "taskCompletedSemantics": "Completed",
+  "taskPendingSemantics": "Not completed",
+  "taskLoadFailure": "Unable to load tasks.",
+  "newTask": "New task",
+  "editTask": "Edit task",
+  "save": "Save",
+  "moreOptions": "More options",
+  "taskStatus": "Status",
+  "automation": "Automation",
+  "removeAttachment": "Remove attachment",
+  "title": "Title",
+  "description": "Description",
+  "taskTitleHint": "What needs to be done?",
+  "taskDescriptionHint": "Add notes or context",
+  "priority": "Priority",
+  "priorityNone": "None",
+  "priorityLow": "Low",
+  "priorityMedium": "Medium",
+  "priorityHigh": "High",
+  "dueDate": "Due date",
+  "recurrence": "Repeat",
+  "repeatNone": "Does not repeat",
+  "repeatDaily": "Daily",
+  "repeatWeekly": "Weekly",
+  "repeatMonthly": "Monthly",
+  "reminder": "Reminder",
+  "tags": "Tags",
+  "tagsHint": "work, personal, study",
+  "attachments": "Attachments",
+  "addAttachment": "Add attachment",
+  "subtasks": "Subtasks",
+  "addSubtask": "Add subtask",
+  "deleteSubtask": "Delete subtask",
+  "deleteSubtaskConfirmationTitle": "Delete this subtask?",
+  "deleteSubtaskConfirmationMessage": "This subtask will be permanently removed.",
+  "saveTaskFirst": "Save the task before adding subtasks.",
+  "taskSaveFailed": "Unable to save the task.",
+  "switchToBoardView": "Switch to board view",
+  "switchToListView": "Switch to list view",
+  "boardTodo": "To do",
+  "boardDone": "Done",
+  "focusTitle": "Focus",
+  "focusStart": "Start",
+  "focusPause": "Pause",
+  "focusReset": "Reset",
+  "focusComplete": "Focus session complete.",
+  "insightsTitle": "Progress",
+  "insightsLoadFailure": "Unable to load progress.",
+  "progressToday": "Today",
+  "progressConsistency": "Consistency",
+  "progressRecentActivity": "Recent activity",
+  "progressMoreDetails": "More details",
+  "progressLifetime": "Lifetime",
+  "currentStreak": "Current streak",
+  "streakDays": "{days} days",
+  "@streakDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "bestDay": "Best day",
+  "noBestDayYet": "No completed tasks in the last 7 days",
+  "bestDayValue": "{day} Â· {count} tasks",
+  "@bestDayValue": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyAverage": "Daily average",
+  "dailyAverageValue": "{tasks} tasks Â· {minutes} min focus",
+  "@dailyAverageValue": {
+    "placeholders": {
+      "tasks": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "weekOverWeek": "Week over week",
+  "tasksChange": "Tasks",
+  "focusChange": "Focus",
+  "noPreviousWeekData": "No previous week data",
+  "thisWeek": "This week",
+  "previousWeek": "Previous week",
+  "thisMonth": "This month",
+  "tasksCompletedValue": "{count} tasks completed",
+  "@tasksCompletedValue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "focusMinutesValue": "{minutes} minutes focused",
+  "@focusMinutesValue": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tasksCompletedTrend": "Tasks completed",
+  "focusMinutesTrend": "Focus minutes",
+  "focusTime": "Focus time",
+  "focusTimeMinutes": "{minutes} minutes",
+  "@focusTimeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "settingsAppearanceDescription": "Theme and display preferences",
+  "settingsNotificationsDescription": "Permissions, reminder sound, and vibration",
+  "settingsDataBackupTitle": "Data & backup",
+  "settingsDataBackupDescription": "Export or restore your local data",
+  "settingsHelpFeedbackTitle": "Help & feedback",
+  "settingsHelpFeedbackDescription": "Report problems and send feedback",
+  "settingsAboutDescription": "Version, updates, and app information",
+  "settingsThemeDescription": "Choose how Perfica follows your device appearance.",
+  "settingsExportBackupDescription": "Save a portable copy of your Perfica data.",
+  "settingsRestoreBackupDescription": "Restore Perfica data from a backup file.",
+  "settingsCheckUpdatesDescription": "Check for a newer official release.",
+  "appearance": "Appearance",
+  "themeTitle": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "dataSection": "Data",
+  "exportBackup": "Export backup",
+  "restoreBackup": "Restore backup",
+  "backupRestored": "Backup restored. Restart Perfica to refresh all screens.",
+  "backupFailed": "Backup operation failed.",
+  "updateSection": "Updates",
+  "checkUpdates": "Check for updates",
+  "upToDate": "No newer official release was found.",
+  "updateAvailable": "A newer release is available.",
+  "updateUnavailable": "Update check is unavailable until the official GitHub repository has releases.",
+  "notifications": "Notifications",
+  "requestNotificationPermission": "Enable notifications",
+  "notificationsRequested": "Notification permission request completed.",
+  "about": "About",
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "searchTasks": "Search tasks",
+  "newTaskTooltip": "Create detailed task",
+  "notSet": "Not set",
+  "boardInProgress": "In progress",
+  "customMinutes": "Custom minutes",
+  "focusDuration": "Focus duration",
+  "completedTasks": "Completed",
+  "minutesLabel": "minutes",
+  "apply": "Apply",
+  "activeTasks": "Active",
+  "cancel": "Cancel",
+  "clearCompletedMessage": "Completed tasks will be removed from the task list. Productivity history will be kept.",
+  "clearCompletedTitle": "Clear completed tasks?",
+  "statusDone": "Done",
+  "focusDurationTooShort": "Focus duration must be at least 1 minute.",
+  "clear": "Clear",
+  "focusDurationInvalid": "Enter a valid number of minutes.",
+  "customFocusDuration": "Custom focus duration",
+  "focusDurationRange": "Enter a duration from 1 to 720 minutes.",
+  "workflowStatus": "Status",
+  "clearCompleted": "Clear completed",
+  "statusInProgress": "In progress",
+  "completeAllActive": "Complete all active",
+  "taskActions": "Task actions",
+  "stopRepeating": "Stop repeating",
+  "completeForever": "Complete forever",
+  "repeatingStoppedFeedback": "Repeating stopped",
+  "completedForeverFeedback": "Completed forever",
+  "completeForeverConfirmationTitle": "Complete this task forever?",
+  "completeForeverConfirmationMessage": "This ends the repeating task permanently. Its recurrence and remaining reminders will be removed.",
+  "statusTodo": "To do",
+  "focusDurationTooLong": "Maximum focus duration is 720 minutes.",
+  "taskTitleRequired": "Title is required.",
+  "organization": "Organization",
+  "subtaskProgress": "{completed} of {total} subtasks",
+  "taskDetails": "Task details",
+  "schedule": "Schedule",
+  "@subtaskProgress": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "pomodoroFocusNotificationTitle": "Focus complete",
+  "pomodoroBreakNotificationBody": "Your break is finished. Start the next focus session when you are ready.",
+  "pomodoroBreakNotificationTitle": "Break complete",
+  "pomodoroLongBreak": "Long break",
+  "pomodoroShortBreak": "Short break",
+  "pomodoroSession": "Session {current} of {total}",
+  "pomodoroFocusDone": "Focus session complete. Time for a break.",
+  "pomodoroTechnique": "Pomodoro",
+  "pomodoroFocus": "Focus",
+  "pomodoroBreakDone": "Break complete. Ready to focus?",
+  "pomodoroFocusNotificationBody": "Your focus session is finished. Take a break.",
+  "@pomodoroSession": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "enableNotifications": "Enable notifications",
+  "notificationPermissionDenied": "Notification permission is disabled. You can enable it in system settings.",
+  "openSystemSettings": "Open system settings",
+  "developerBy": "by Veltaluma",
+  "notificationSettings": "Notification settings",
+  "pomodoroSkipPhase": "Skip",
+  "pomodoroRunning": "Running",
+  "pomodoroLongBreakLength": "Long break",
+  "pomodoroShortBreakLength": "Short break",
+  "pomodoroCycleProgress": "{completed} of {total} focus sessions",
+  "pomodoroReady": "Ready",
+  "pomodoroResetCycle": "Reset cycle",
+  "pomodoroPaused": "Paused",
+  "pomodoroFocusLength": "Focus",
+  "@pomodoroCycleProgress": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "minuteLabel": "minute",
+  "focusResume": "Resume",
+  "pomodoroBreakAfterSession": "After focus {current} of {total}",
+  "@pomodoroBreakAfterSession": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "pomodoroFocusSkipped": "Focus skipped",
+  "pomodoroSettings": "Pomodoro",
+  "focusSettingsTitle": "Focus settings",
+  "focusSettingsTooltip": "Open focus settings",
+  "focusSettingsDurations": "Durations",
+  "focusSettingsAutomation": "Automation",
+  "focusSettingsFeedback": "Feedback",
+  "pomodoroAutoStartFocus": "Auto-start focus",
+  "pomodoroSessionsLabel": "{count} sessions",
+  "pomodoroCompletionSound": "Completion sound",
+  "pomodoroVibration": "Vibration",
+  "pomodoroFocusDuration": "Focus duration",
+  "pomodoroInvalidValue": "Enter a valid value.",
+  "pomodoroSessionsRange": "Enter a value from 1 to 12.",
+  "pomodoroBreakMinutesRange": "Enter a duration from 1 to 180 minutes.",
+  "pomodoroSessionsPerCycle": "Focus sessions per cycle",
+  "pomodoroLongBreakDuration": "Long break duration",
+  "pomodoroMinutesRange": "Enter a duration from 1 to 720 minutes.",
+  "pomodoroSettingsDescription": "Customize your focus and break cycle.",
+  "pomodoroShortBreakDuration": "Short break duration",
+  "pomodoroAutoStartBreaks": "Auto-start breaks",
+  "@pomodoroSessionsLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pomodoroNotificationsRequired": "Enable notifications to use completion sound and vibration.",
+  "moreSubtasks": "+{count} more",
+  "@moreSubtasks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "complete": "Complete",
+  "editTaskTooltip": "Edit task",
+  "completeAllActiveMessage": "All active tasks will be marked as completed.",
+  "recurringOccurrenceCompleted": "Completed. Next occurrence scheduled.",
+  "deleteTaskConfirmationTitle": "Delete this task?",
+  "deleteTaskConfirmationMessage": "This task will be removed from Perfica.",
+  "completeAllActiveTitle": "Complete all active tasks?",
+  "deleteTask": "Delete",
+  "taskRemindersDescription": "Choose how task reminders alert you.",
+  "taskReminderSoundDescription": "Play a sound when a task reminder arrives.",
+  "taskReminderVibrationDescription": "Vibrate for task reminders on Android. On iOS, vibration follows system notification settings.",
+  "taskReminderVibration": "Vibration",
+  "taskReminders": "Task reminders",
+  "taskReminderSound": "Sound",
+  "reminderRepeat": "Repeat reminder",
+  "reminderRepeatOnce": "Once",
+  "reminderRepeatEvery5Minutes": "Every 5 minutes",
+  "reminderRepeatEvery10Minutes": "Every 10 minutes",
+  "reminderRepeatEvery15Minutes": "Every 15 minutes",
+  "reminderRepeatEvery30Minutes": "Every 30 minutes",
+  "reminderRepeatFiveAlertsDescription": "Perfica will alert up to 5 times for this occurrence.",
+  "taskReminderDoneAction": "Done",
+  "taskReminderSnooze10Action": "Snooze 10m",
+  "taskCompletedFeedback": "Completed",
+  "undo": "Undo",
+  "openAction": "Open",
+  "settingsLoadFailure": "Some settings could not be loaded.",
+  "support": "Support",
+  "reportBug": "Report a bug",
+  "reportBugDescription": "Tell us what went wrong and review diagnostics before sending.",
+  "bugReportTitle": "Bug title",
+  "bugReportTitleHint": "Briefly describe the problem",
+  "bugReportDescriptionLabel": "What happened?",
+  "bugReportDescriptionHint": "Describe what you saw and why it was a problem.",
+  "bugReportSteps": "Steps to reproduce",
+  "bugReportStepsHint": "List the steps that caused the problem.",
+  "bugReportExpected": "Expected behavior",
+  "bugReportExpectedHint": "What did you expect Perfica to do?",
+  "bugReportContact": "Contact (optional)",
+  "bugReportContactHint": "Email or another contact method",
+  "bugReportDiagnostics": "Diagnostics",
+  "bugReportDiagnosticsPrivacy": "Diagnostics stay on this device until you choose to send a report. Review them before submission.",
+  "bugReportNoDiagnostics": "No recent diagnostic errors were recorded.",
+  "bugReportIncludeDiagnostics": "Include recent diagnostics",
+  "bugReportIncludeDiagnosticsDescription": "Attach up to the three most recent locally recorded errors.",
+  "bugReportRequired": "This field is required.",
+  "bugReportReview": "Review report",
+  "bugReportReviewTitle": "Review bug report",
+  "bugReportReviewDescription": "Check the information below before sending the report.",
+  "bugReportDiagnosticsExcluded": "Not included",
+  "bugReportDiagnosticContext": "Context",
+  "close": "Close",
+  "bugReportDiagnosticsIncluded": "{count} diagnostic entries included",
+  "@bugReportDiagnosticsIncluded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bugReportDiagnosticRecordedAt": "Recorded: {time}",
+  "@bugReportDiagnosticRecordedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "bugReportDiagnosticInformation": "Diagnostic information",
+  "bugReportEnvironmentStillIncluded": "App, OS, and device information will still be included.",
+  "bugReportSend": "Send report",
+  "bugReportSending": "Sending report...",
+  "bugReportSentTitle": "Bug report sent",
+  "bugReportSentDescription": "Thank you. Your report was submitted successfully.",
+  "bugReportOpenIssue": "Open issue",
+  "bugReportUnknown": "Unknown",
+  "bugReportAppVersion": "App version: {value}",
+  "@bugReportAppVersion": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "bugReportPlatform": "Platform: {value}",
+  "@bugReportPlatform": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "bugReportOsVersion": "OS version: {value}",
+  "@bugReportOsVersion": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "bugReportDevice": "Device: {value}",
+  "@bugReportDevice": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "bugReportLocale": "Locale: {value}",
+  "@bugReportLocale": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "bugReportRecentErrorsNone": "Recent errors: None included",
+  "bugReportRecentErrorsIncluded": "Recent errors: {count} included",
+  "@bugReportRecentErrorsIncluded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bugReportReportNumber": "Report #{id}",
+  "@bugReportReportNumber": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "bugReportSubmitFailed": "Could not send the bug report. Please try again.",
+  "bugReportSubmitFailedHttp": "Could not send the bug report (HTTP {status}). Please try again.",
+  "@bugReportSubmitFailedHttp": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  }
+}

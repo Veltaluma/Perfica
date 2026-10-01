@@ -1,0 +1,38 @@
+Categories:
+  - Task
+  - Time Tracker
+License: GPL-3.0-or-later
+
+AutoName: Perfica
+Summary: Offline-first task and focus productivity app
+Description: |
+  Perfica is an offline-first productivity application for managing tasks,
+  focus sessions, reminders, progress, and local backups.
+
+  Core application data is stored locally on the device.
+
+RepoType: git
+Repo: https://github.com/Veltaluma/Perfica.git
+
+Builds:
+  - versionName: 0.1.0
+    versionCode: 1
+    commit: 0.1.0
+    output: build/app/outputs/flutter-apk/app-release.apk
+    srclibs:
+      - flutter@stable
+    prebuild:
+      - git -C $$flutter$$ checkout -f 6a19cca564
+      - export PUB_CACHE=$(pwd)/.pub-cache
+      - $$flutter$$/bin/flutter config --no-analytics
+      - $$flutter$$/bin/flutter pub get --enforce-lockfile
+    scandelete:
+      - .pub-cache
+    build:
+      - export PUB_CACHE=$(pwd)/.pub-cache
+      - $$flutter$$/bin/flutter build apk --release --no-pub
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+CurrentVersion: 0.1.0
+CurrentVersionCode: 1

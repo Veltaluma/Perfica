@@ -1,0 +1,41 @@
+Perfica
+=======
+
+Copyright (C) 2026 Perfica contributors.
+
+Canonical upstream project: Perfica
+Canonical upstream organization: Veltaluma
+Canonical upstream repository: https://github.com/Veltaluma/Perfica
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+Perfica is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+Copyright in an original contribution remains with the contributor or other
+applicable copyright holder unless that copyright has been explicitly assigned
+otherwise in writing.
+
+Submitting a contribution to Perfica does not, by itself, transfer ownership of
+that contribution to Veltaluma.
+
+Original contributions intentionally submitted for inclusion in Perfica are
+made available as part of the project under GPL-3.0-or-later.
+
+Veltaluma maintains the canonical upstream repository and coordinates the
+official Perfica project. This stewardship statement does not override the
+copyright ownership of individual contributors.
+
+The full GNU General Public License version 3 text is provided in LICENSE.
+
+The copyright notice:
+
+    Copyright (C) 2007 Free Software Foundation, Inc.
+
+inside LICENSE belongs to the GNU GPL version 3 license document itself and must
+not be replaced with Perfica's copyright year.
+
+Third-party software, fonts, and other assets remain subject to their respective
+licenses. See THIRD_PARTY_NOTICES.md and bundled license files.

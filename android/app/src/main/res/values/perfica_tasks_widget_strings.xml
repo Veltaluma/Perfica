@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="perfica_widget_title">Perfica Tasks</string>
+    <string name="perfica_widget_active">Active</string>
+    <string name="perfica_widget_completed">Completed</string>
+    <string name="perfica_widget_add">Add task</string>
+    <string name="perfica_widget_switch">Switch Active and Completed tasks</string>
+    <string name="perfica_widget_toggle_completion">Toggle task completion</string>
+    <string name="perfica_widget_empty_active">No active tasks</string>
+    <string name="perfica_widget_empty_completed">No completed tasks</string>
+    <string name="perfica_widget_description">Scrollable Perfica tasks with quick add and completion.</string>
+</resources>
