@@ -1,0 +1,4 @@
+﻿Perfica is an offline-first productivity application for managing tasks,
+focus sessions, reminders, progress, and local backups.
+
+Core application data is stored locally on the device.
